@@ -228,11 +228,33 @@ li a {
     text-align: center;
   }
 
-* breakdown for tablet size */
+/* breakdown for tablet size */
 @media screen and (max-width:640px) {
   .logo {
-    font-size: 50px;
+    font-size: 60px;
   }
+
+  .searchBox {
+    height: 60px;
+    width: 65%;
+  }
+
+  .searchBox2 {
+    height: 50px;
+    width: 50%;
+  }
+
+  li {
+    float: none;
+    width:100%;
+  }
+
+  li a {
+    float: none;
+    width: 100%;
+  }
+
+
 }
 /* breakdown for iphone size */
 @media screen and (max-width: 375px) {
@@ -244,6 +266,7 @@ li a {
   li a {
     float: none;
     width: 100%;
+    padding: 0;
   }
 
   button {
@@ -253,4 +276,10 @@ li a {
   body {
     background-image: url('https://dogsbestlife.com/wp-content/uploads/2019/05/dog-walker-vs.-pet-sitter.jpeg');
   }
+
+  .searchBox2 {
+    height: 50px;
+    width: 65%;
+  }
+
 }
